@@ -1,0 +1,43 @@
+--CREATE TABLE employee (
+--id SERIAL NOT NULL,
+--name VARCHAR(50) NOT NULL,
+--birthday DATE,
+--email VARCHAR(100)
+--);
+
+-- SAMPLE: insert into employee (name, birthday, email) values ('Val Shufflebotham', '1969-06-21', 'vshufflebotham0@fastcompany.com');
+
+--UPDATE employee
+--	SET birthday = '1980-01-01'
+--WHERE id = 9;
+
+--UPDATE employee
+--	SET id = '100'
+--WHERE name = 'Holli Olland';
+
+--UPDATE employee
+--	SET id = '0'
+--WHERE name LIKE 'A%';
+
+--UPDATE employee
+--	SET name = 'HATALI'
+--WHERE birthday = '1965-01-15';
+
+--UPDATE employee
+--	SET birthday = '1900-01-01'
+--	WHERE email LIKE 'b%';
+
+--DELETE FROM employee
+--	WHERE id = '15';
+
+--DELETE FROM employee
+--	WHERE name LIKE 'V%';
+
+--DELETE FROM employee
+--	WHERE email LIKE 'm%';
+
+--DELETE FROM employee
+--	WHERE id = '15';
+
+--DELETE FROM employee
+--	WHERE id > '45';
